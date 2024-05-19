@@ -1,0 +1,29 @@
+/* src/components/NewsFeed.css */
+.news-feed {
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+  }
+  
+  .news-feed h2 {
+    text-align: center;
+  }
+  
+  .news-feed ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .news-feed li {
+    margin: 10px 0;
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .news-feed li:last-child {
+    border-bottom: none;
+  }
+  
