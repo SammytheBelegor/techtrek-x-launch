@@ -1,4 +1,3 @@
-// src/App.js
 import React from 'react';
 import './App.css';
 import ProductPage from './components/ProductPage';
@@ -9,9 +8,24 @@ import ContactInfo from './components/ContactInfo';
 const App = () => (
   <div className="app">
     <header className="app-header">
-      <h1>Welcome to TechTrek</h1>
+      <div className="header-content">
+        <h1>TechTrek</h1>
+        <nav className="nav-menu">
+          <a href="#product">Product</a>
+          <a href="#order">Order</a>
+          <a href="#news">News</a>
+          <a href="#contact">Contact</a>
+        </nav>
+        <div className="header-widgets">
+          <input type="text" className="search-bar" placeholder="Search..." />
+          <div className="header-icons">
+            <i className="fas fa-shopping-cart"></i>
+            <i className="fas fa-user"></i>
+          </div>
+        </div>
+      </div>
     </header>
-    <main>
+    <main className="app-main">
       <ProductPage />
       <OrderForm />
       <NewsFeed />

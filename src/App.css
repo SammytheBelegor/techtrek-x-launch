@@ -1,40 +1,101 @@
-/* src/App.css */
-body {
+/* Font Awesome for icons */
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css');
+
+.app {
   font-family: Arial, sans-serif;
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
+  color: #333;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  background: url('C:/projects/Tech/techtrek-x-launch/src/assets/images/background.jpg') no-repeat center center fixed;
+  background-size: cover;
 }
 
 .app-header {
-  background-color: #282c34;
+  background-color: rgba(66, 104, 105, 0.749);
   padding: 20px;
   color: white;
   text-align: center;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  display: flex;
+  justify-content: center;
+}
+
+.header-content {
+  width: 100%;
+  max-width: 1200px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header-content h1 {
+  margin: 0;
+  font-size: 2.5em;
+}
+
+.nav-menu {
+  display: flex;
+  gap: 20px;
+}
+
+.nav-menu a {
+  color: white;
+  text-decoration: none;
+  font-size: 1.1em;
+}
+
+.nav-menu a:hover {
+  text-decoration: underline;
+}
+
+.header-widgets {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.search-bar {
+  padding: 5px 10px;
+  border: none;
+  border-radius: 5px;
+  font-size: 1em;
+}
+
+.header-icons {
+  display: flex;
+  gap: 15px;
+}
+
+.header-icons i {
+  font-size: 1.5em;
+  cursor: pointer;
+}
+
+.header-icons i:hover {
+  color: #ccc;
+}
+
+.app-main {
+  flex: 1;
+  padding: 20px;
 }
 
 .app-footer {
-  background-color: #282c34;
-  padding: 10px;
+  background-color: rgba(0, 0, 0, 0.7);
   color: white;
   text-align: center;
-  position: fixed;
-  bottom: 0;
-  width: 100%;
+  padding: 10px;
+  box-shadow: 0 -4px 8px rgba(0, 0, 0, 0.1);
 }
 
-main {
+.product-page,
+.order-form,
+.news-feed,
+.contact-info {
+  margin-bottom: 20px;
+  background-color: white;
   padding: 20px;
-}
-
-/* Media queries for responsiveness */
-@media (max-width: 600px) {
-  .product-page img {
-    width: 100%;
-    height: auto;
-  }
-
-  .order-form, .news-feed, .contact-info {
-    padding: 10px;
-  }
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
