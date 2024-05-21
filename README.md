@@ -1,67 +1,45 @@
-TechTrek X Product Launch Website
-Welcome to the TechTrek X Product Launch Website repository. This project is a React-based website designed to showcase the new TechTrek X smartphone, including its features, pre-order form, news updates, and contact information.
+# TechTrek X Launch
 
-Table of Contents
-Features
-Getting Started
-Installation
-Usage
-Project Structure
-Images and Videos
-Contributing
+Welcome to the TechTrek X Launch web application repository! This project is a responsive web application created to introduce and allow pre-orders for the innovative TechTrek X smartphone. The application provides detailed information about the smartphone, including its features, a pre-order form, the latest news, and contact information.
 
-Features
-Product Page: Displays the main characteristics and features of the TechTrek X smartphone.
-Order Form: Form for pre-ordering the smartphone with client-side validation.
-News Feed: Latest news about TechTrek X.
-Contact Information: Company contact details for potential clients.
-Responsive Design: Optimized for various devices and screen sizes.
+## Table of Contents
 
-Getting Started
+- [Demo](#demo)
+- [Features](#features)
+- [Technologies Used](#technologies-used)
+- [Installation](#installation)
+- [Usage](#usage)
+- [Deployment](#deployment)
+- [Contributing](#contributing)
+- [License](#license)
 
-Prerequisites
-Node.js (>=14.x)
-npm (>=6.x) or yarn (>=1.x)
-Installation
-Clone the repository:
+## Demo
 
-git clone https://github.com/SammytheBelegor/techtrek-x-launch.git
-cd techtrek-x-launch
-Install dependencies:
+Check out the live demo of the application [here](https://<your-github-username>.github.io/techtrek-x-launch).
 
-Copy code
-npm install
-or
+## Features
 
-Copy code
-yarn install
-Usage
+- **Product Page**: Displays the main characteristics and features of the TechTrek X smartphone, including photos, videos, and product descriptions.
+- **Order Form**: Allows users to pre-order the TechTrek X smartphone by providing their name, email address, and desired number of devices. The form includes client-side validation.
+- **News Feed**: Shows the latest news and updates about the TechTrek X smartphone.
+- **Contact Information**: Provides company contact details for potential clients.
+- **Responsive Design**: Ensures the web application displays correctly on different devices using media queries.
 
-Start the development server:
-Copy code
-npm start
-or
+## Technologies Used
 
-yarn start
-Navigate to http://localhost:3000 in your browser to see the application.
+- **React.js**: JavaScript library for building user interfaces.
+- **CSS**: Styling for the components.
+- **gh-pages**: Deployment to GitHub Pages.
 
-Project Structure
-java
-Copy code
-techtrek-x-launch/
-├── public/
-├── src/
-│   ├── assets/
-│   │   ├── images/
-│   │   ├── videos/
-│   ├── components/
-│   ├── App.js
-│   ├── App.css
-│   ├── index.js
-├── package.json
-├── README.md
+## Installation
+
+To get a local copy of the project up and running, follow these steps:
+
+1. **Clone the repository**:
+   ```bash
+   git clone https://github.com/<your-github-username>/techtrek-x-launch.git
+   cd techtrek-x-launch
 
 Images and Videos
 Screenshots: Add screenshots to showcase your application.
-Product Video: Google Drive Link (Add your link here)
-More Screenshots: Google Drive Link (Add your link here)
+More Screenshots and A Video: Google Drive Link https://drive.google.com/drive/folders/1DnV7o590Z8QsnAetxhn_B-vQvdEezMjV?usp=sharing
