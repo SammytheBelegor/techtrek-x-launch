@@ -15,7 +15,7 @@ Welcome to the TechTrek X Launch web application repository! This project is a r
 
 ## Demo
 
-Check out the live demo of the application [here](https://<your-github-username>.github.io/techtrek-x-launch).
+Check out the deployed site: https://sammythebelegor.github.io/techtrek-x-launch/
 
 ## Features
 
