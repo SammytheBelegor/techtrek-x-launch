@@ -1,17 +1,18 @@
 {
   "files": {
-    "main.css": "/SammytheBelegor/techtrek-x-launch/static/css/main.4108676e.css",
-    "main.js": "/SammytheBelegor/techtrek-x-launch/static/js/main.a2678db7.js",
-    "static/js/453.20a23c2b.chunk.js": "/SammytheBelegor/techtrek-x-launch/static/js/453.20a23c2b.chunk.js",
-    "static/media/techtrekx.mp4": "/SammytheBelegor/techtrek-x-launch/static/media/techtrekx.dff404dcfcc46d4764af.mp4",
-    "static/media/techtrekx.jpg": "/SammytheBelegor/techtrek-x-launch/static/media/techtrekx.5762dae2a3373e129902.jpg",
-    "index.html": "/SammytheBelegor/techtrek-x-launch/index.html",
-    "main.4108676e.css.map": "/SammytheBelegor/techtrek-x-launch/static/css/main.4108676e.css.map",
-    "main.a2678db7.js.map": "/SammytheBelegor/techtrek-x-launch/static/js/main.a2678db7.js.map",
-    "453.20a23c2b.chunk.js.map": "/SammytheBelegor/techtrek-x-launch/static/js/453.20a23c2b.chunk.js.map"
+    "main.css": "/techtrek-x-launch/static/css/main.8f404ddf.css",
+    "main.js": "/techtrek-x-launch/static/js/main.45b6e871.js",
+    "static/js/453.20a23c2b.chunk.js": "/techtrek-x-launch/static/js/453.20a23c2b.chunk.js",
+    "static/media/techtrekx.mp4": "/techtrek-x-launch/static/media/techtrekx.dff404dcfcc46d4764af.mp4",
+    "static/media/background.jpg": "/techtrek-x-launch/static/media/background.e72862b27d073385e00d.jpg",
+    "static/media/techtrekx.jpg": "/techtrek-x-launch/static/media/techtrekx.5762dae2a3373e129902.jpg",
+    "index.html": "/techtrek-x-launch/index.html",
+    "main.8f404ddf.css.map": "/techtrek-x-launch/static/css/main.8f404ddf.css.map",
+    "main.45b6e871.js.map": "/techtrek-x-launch/static/js/main.45b6e871.js.map",
+    "453.20a23c2b.chunk.js.map": "/techtrek-x-launch/static/js/453.20a23c2b.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.4108676e.css",
-    "static/js/main.a2678db7.js"
+    "static/css/main.8f404ddf.css",
+    "static/js/main.45b6e871.js"
   ]
 }
